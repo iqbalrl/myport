@@ -25,12 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            [
-                'attribute' => 'attribute'
-                'value' => 'value'
-                'filter' => ''
-            ]
-            'nm_kokab',
+            'kokab.pro.nm_pro',
+            'kokab.nm_kokab',
+            'nm_kecamatan',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
